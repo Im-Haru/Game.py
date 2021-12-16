@@ -12,6 +12,7 @@ joueurs = {
     attaquant:{ 
         "mana": 20,
         "pv": 300,
+        "critiques"
     },
     adversaire:{
         "mana": 20,
@@ -77,12 +78,9 @@ while True:
 
 
 
-    
-    
-   
-    
 
 
 
 
-    
+
+
