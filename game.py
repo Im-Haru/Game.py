@@ -37,8 +37,6 @@ attaques =  {
     }
 }
 
-print ("test")
-
 
 
 while True:
