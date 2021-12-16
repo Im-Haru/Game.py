@@ -19,8 +19,8 @@ class Personnage:
         ennemi.PrendreAttaque(attaque)
 
 class Mage(Personnage):
-    def __init__(self, nom):
-        self.nom = nom
+    def __init__(self):
+        self.nom = "Vixou le semmeur de grabuges"
         self.pv = 80
         self.mana = 150
         self.critiques = 5
@@ -29,11 +29,28 @@ class Mage(Personnage):
         print("Vous ne passerez pas !")
 
 class Guerrier(Personnage):
-    def __init__(self, nom):
-        self.nom = nom
+    def __init__(self):
+        self.nom = "Kit le guerrier blageur"
         self.pv = 300
         self.mana = 10
         self.critiques = 0.5
 
     def Presentation(self):
         print("GRRRRR !")
+
+
+class Pretre(Personnage):
+    def __init__(self):
+        self.nom = "Adadaa le pretre pété"
+        self.pv = 75
+        self.mana = 200
+        self.critiques = 2
+
+
+
+
+
+
+
+
+
