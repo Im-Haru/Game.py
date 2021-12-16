@@ -8,7 +8,7 @@ def question(question):
     return sys.stdin.readline()[:-1]
 
 
-class Joueurs():
+class Joueur():
     def __init__(self):
         self.nom = question("Joueur, quel est ton nom ?")
 
@@ -22,7 +22,9 @@ class Joueurs():
             i += 1
         a = question("Quelle classe choississez vous ?")
         if int(a) >= 0 and int(a) < len(availableClass):
-            self.personnages = availableClass[int(a)]()
+            self.personnage = availableClass[int(a)]()
+    def Presentation(self):
+        print("je suis ", self.nom, "le", self.personnage.Presentation())
 
 
 

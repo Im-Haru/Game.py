@@ -46,7 +46,8 @@ class Pretre(Personnage):
         self.mana = 200
         self.critiques = 2
 
-
+def Presentation(self):
+        print("Ici la pharmacie")
 
 
 
