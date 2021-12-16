@@ -37,6 +37,7 @@ attaques =  {
     }
 }
 
+print ("test")
 
 
 
@@ -76,7 +77,7 @@ while True:
     attaquant = adversaire
     adversaire = StockerTour
 
-    
+
 
     
     
