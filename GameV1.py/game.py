@@ -1,5 +1,8 @@
 import sys
 
+
+
+
 def question(question): 
     print(question)
     return sys.stdin.readline()[:-1]
