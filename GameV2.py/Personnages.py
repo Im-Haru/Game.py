@@ -7,7 +7,7 @@ class Personnage:
         self.critiques = critiques
 
     def Presentation(self):
-        print("Je suis un personnage", self.nom)
+        return self.nom
 
     def PrendreAttaque(self, attaque):
         self.pv -= attaque.degats
@@ -25,9 +25,6 @@ class Mage(Personnage):
         self.mana = 150
         self.critiques = 5
 
-    def Presentation(self):
-        print("Vous ne passerez pas !")
-
 class Guerrier(Personnage):
     def __init__(self):
         self.nom = "Kit le guerrier blageur"
@@ -35,8 +32,6 @@ class Guerrier(Personnage):
         self.mana = 10
         self.critiques = 0.5
 
-    def Presentation(self):
-        print("GRRRRR !")
 
 
 class Pretre(Personnage):
@@ -47,7 +42,7 @@ class Pretre(Personnage):
         self.critiques = 2
 
 def Presentation(self):
-        print("Ici la pharmacie")
+        return "ci la pharmacie %s" % (self.nom)
 
 
 
